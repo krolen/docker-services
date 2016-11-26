@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sysomos.docker</groupId>
+    <groupId>com.test.docker</groupId>
     <artifactId>simple-docker-test</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <docker.image.prefix>sysomos</docker.image.prefix>
+        <docker.image.prefix>test</docker.image.prefix>
         <docker.repo>10.11.18.53:5000</docker.repo>
     </properties>
 
